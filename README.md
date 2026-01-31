@@ -1,12 +1,8 @@
 # Optimasi Harga Retail: Analisis Elastisitas Permintaan 🏷️
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![Data](https://img.shields.io/badge/Data-Synthetic-orange) ![Status](https://img.shields.io/badge/Status-Completed-success)
-
 ## ⚠️ Disclaimer Data
 **Penting:** Dataset yang digunakan dalam proyek ini adalah **Data Sintetis** (*Synthetic/Generated Data*).
 Data ini dibuat menggunakan simulasi Python dengan logika ekonomi (Hukum Permintaan) dan penambahan *random noise* untuk meniru perilaku pasar nyata. Tujuannya adalah untuk mendemonstrasikan kemampuan analisis statistik dan pemodelan strategi tanpa menggunakan data rahasia perusahaan.
-
----
 
 ## 📋 Ringkasan Eksekutif
 Proyek ini bertujuan untuk menentukan titik harga optimal (*Sweet Spot*) guna memaksimalkan pendapatan (*Revenue Maximization*). Dengan mensimulasikan data penjualan selama 365 hari, kita menganalisis bagaimana perubahan harga mempengaruhi jumlah permintaan (*Price Elasticity of Demand*).
@@ -26,9 +22,6 @@ Karena dataset ini adalah simulasi, berikut adalah logika yang digunakan untuk m
 ### 1. Kurva Optimasi Revenue
 Grafik di bawah ini menunjukkan hubungan antara Harga (Sumbu X) dan Total Pendapatan (Sumbu Y). Titik merah menandakan harga terbaik untuk profit maksimal.
 
-![Kurva Optimasi Revenue](nama_file_gambar_grafik_anda.png)
-*(Pastikan Anda mengupload gambar grafik kurva hijau tadi ke repository dan ganti `nama_file_gambar_grafik_anda.png` dengan nama file yang sesuai)*
-
 ### 2. Temuan Kunci dari Grafik
 * **Current State:** Rata-rata harga saat ini adalah **Rp 48.637**.
 * **Optimal Price:** Titik puncak kurva berada di **Rp 62.000**.
@@ -45,9 +38,7 @@ Jika ini adalah skenario nyata, rekomendasi untuk manajemen adalah:
 * **Numpy & Pandas:** Untuk *data generation* dan manipulasi data.
 * **Scipy Stats:** Untuk perhitungan regresi linear dan elastisitas.
 * **Matplotlib & Seaborn:** Untuk visualisasi data.
-
----
-
+  
 ### Cara Menjalankan Code
 1.  Clone repository ini.
 2.  Install library: `pip install pandas numpy matplotlib seaborn scipy`
