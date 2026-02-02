@@ -39,7 +39,3 @@ Jika ini adalah skenario nyata, rekomendasi untuk manajemen adalah:
 * **Scipy Stats:** Untuk perhitungan regresi linear dan elastisitas.
 * **Matplotlib & Seaborn:** Untuk visualisasi data.
   
-### Cara Menjalankan Code
-1.  Clone repository ini.
-2.  Install library: `pip install pandas numpy matplotlib seaborn scipy`
-3.  Jalankan file notebook untuk melihat proses dari pembuatan data hingga visualisasi.
